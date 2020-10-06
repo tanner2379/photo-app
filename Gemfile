@@ -25,6 +25,7 @@ gem 'devise-bootstrap-views'
 # uncomment and install if bootstrap js not working
 # gem 'therubyracer'
 gem 'jquery-rails'
+gem 'stripe'
 
 # Use Active Storage variant
 # gem 'image_processing', '~> 1.2'
