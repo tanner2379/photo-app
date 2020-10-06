@@ -3,14 +3,6 @@ Rails.application.configure do
 
   config.action_mailer.delivery_method = :smtp
   config.action_mailer.default_url_options = { :host => 'https://tanner-photo-app.herokuapp.com/', :protocol => 'https' }
-  # config.action_mailer.smtp_settings = {
-  #   :user_name => Rails.application.credentials.mailtrap[:username],
-  #   :password => Rails.application.credentials.mailtrap[:password],
-  #   :address => 'smtp.mailtrap.io',
-  #   :domain => 'smtp.mailtrap.io',
-  #   :port => '2525',
-  #   :authentication => :cram_md5
-  # }
 
   # Code is not reloaded between requests.
   config.cache_classes = true
